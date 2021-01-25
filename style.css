@@ -1,0 +1,32 @@
+#container{
+    position: relative;
+    width: 50%;
+    height: 500px;
+    background-color:pink;
+    background-image: url(alarm-clock-without-hands.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+#hour , #minute , #second{
+    position: absolute;
+    width: 1%;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    margin-left: 50%;
+    opacity: 0.9;
+}
+#hour{
+    height: 16%;
+    margin-top: 26%;
+}
+#minute{
+      height: 19%;
+      margin-top: 24%;
+}
+#second{
+   height: 22%;
+   margin-top: 22%;
+}
